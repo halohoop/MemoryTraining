@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MemoryTraining</string>
+    <string name="coding_training">Coding</string>
+    <string name="actual_training">Actual</string>
+
+    <!--coding group strings-->
+    <!--coding item strings-->
+    <string name="coding_group1">Coding</string>
+    <string name="coding_item1_group1">110 Groups Numbers</string>
+    <string name="coding_group2">Palace</string>
+    <string name="coding_item2_group2">Places</string>
+
+    <!--actual group strings-->
+    <!--actual item strings-->
+    <string name="actual_group1">basic</string>
+    <string name="actual_item1_group1">Thirty Six Stratagems</string>
+    <string name="actual_item2_group1">The 24 Solar Terms</string>
+    <string name="actual_group2">middle</string>
+    <string name="actual_item3_group2">Circumference Ratio</string>
+    <string name="actual_group3">high</string>
+    <string name="actual_group4">crazy</string>
+
+</resources>

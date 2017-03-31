@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.activities.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.halohoop.memorytraining.widgets.NoScrollViewPager
+            android:id="@+id/vp_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.halohoop.memorytraining.widgets.NoScrollViewPager>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/loading_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.halohoop.bounceprogressbar.views.BounceProgressBar
+            android:id="@+id/bpb"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="#00d5f1"
+            android:visibility="gone"
+            app:BouncingBallColor="#bf00ff"
+            app:BouncingBallRadius="50"
+            app:FixBallColor="#ff0000"
+            app:FixRadius="10"
+            app:LineColor="#fff700"
+            app:LineWidth="200"
+            app:StrokeWidth="5" />
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#8e8e8e"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>

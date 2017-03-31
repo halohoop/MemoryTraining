@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MemoryTraining</string>
+    <string name="coding_training">编码训练</string>
+    <string name="actual_training">实战训练</string>
+    <!--coding group strings-->
+    <!--coding item strings-->
+    <string name="coding_group1">编码</string>
+    <string name="coding_item1_group1">110 数字编码</string>
+    <string name="coding_group2">宫殿</string>
+    <string name="coding_item2_group2">地点桩</string>
+
+    <!--actual group strings-->
+    <!--actual item strings-->
+    <string name="actual_group1">初级</string>
+    <string name="actual_item1_group1">三十六技</string>
+    <string name="actual_item2_group1">二十四节气</string>
+    <string name="actual_group2">中级</string>
+    <string name="actual_item3_group2">圆周率</string>
+    <string name="actual_group3">高级</string>
+    <string name="actual_group4">变态</string>
+</resources>
